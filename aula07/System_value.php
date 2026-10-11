@@ -1,7 +1,11 @@
 <?php
 // Projeto Integrador: Sistema de Vendas e Comissões
 function calcularComissao($valorVenda) {
-    return $valorVenda * 0.20; // 20% de comissão
+    if($valorVenda >= 400){
+        return $valorVenda * 0.20; // 20% de comissão
+    }else{
+        return $valorVenda * 0.10; // 10% de comissão
+    }
 }
 
 // Array multidimensional simulando um banco de dados de vendas

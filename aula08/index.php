@@ -32,5 +32,4 @@
     echo "Idade Validada: " . ($idadeValidada !== false ? $idadeValidada . " anos" : "Idade Inválida") . "\n";
     ?>
 </body>
-    <script>alert('hack');</script>
 </html>

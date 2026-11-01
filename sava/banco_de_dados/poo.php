@@ -22,4 +22,16 @@ class Fruta{
     }
 }
 
+// instanciando um objeto da classe Fruta
+$fruta1 = new Fruta(); 
+// utilizando o objeto criado para chamar o método “setNome”
+$fruta1->setNome("morango"); 
+// utilizando o objeto criado para chamar o método “setTipo”
+$fruta1->setTipo("vermelha");
+// utilizando o comando “echo” para imprimir o resultado da chamada ao método “getNome” 
+echo $fruta1->getNome(); 
+// utilizando o comando “echo” para imprimir o resultado da chamada ao método “getTipo” 
+echo $fruta1->getTipo(); 
+
+
 ?>
